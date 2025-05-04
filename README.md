@@ -1,38 +1,43 @@
-# Retinal-diseases-detection
-# 🧠 Retinal Disease Detection Using Deep Learning
+#  Retinal Disease Detection Using Deep Learning
 
-This project focuses on detecting retinal diseases from fundus images through image classification techniques. It aims to support early diagnosis by identifying conditions such as **Diabetic Retinopathy**, **Glaucoma**, **Age-related Macular Degeneration**, and **Hypertensive Retinopathy**.
+This project focuses on detecting retinal diseases from fundus images through image classification techniques. It aims to support early diagnosis by identifying conditions such as **Dry AMD**, **Wet AMD**, **Glaucoma**, **Diabetic Retinopathy (Mild/Moderate/Severe/PDR)**, **Cataract**, **Hypertensive Retinopathy**, **Pathological Myopia**, and other retinal pathologies.
 
-## 🚀 Project Overview
-- Developed and tested in **Google Colab**
-- Built a custom image classification model using convolutional neural networks
-- Provides classification output and visual results on sample data
-- Deployment-ready notebook for demonstration or integration purposes
+##  Project Overview
+- Developed and tested entirely in **Google Colab**
+- Custom convolutional neural network for multi-class image classification
+- Data preprocessing, augmentation, and training pipelines included
+- Notebook for real-time prediction interface using Gradio
 
-## 📁 Repository Structure
+##  Repository Structure
 
-| File/Folder           | Description                                      |
-|-----------------------|--------------------------------------------------|
-| `model.ipynb`         | Training and evaluation of the classification model |
-| `deployment.ipynb`    | Contains the interface simulation and output display |
-| `requirements.txt`    | List of necessary Python packages and versions   |
-| `images/`             | Folder for storing output examples/screenshots   |
-| `README.md`           | Project documentation                            |
+| File/Folder           | Description                                               |
+|-----------------------|-----------------------------------------------------------|
+| `model.ipynb`         | Data loading, preprocessing, augmentation, and training   |
+| `deployment.ipynb`    | Gradio interface setup and demonstration of real-time use |
+| `requirements.txt`    | Pinning of all Python dependencies                        |
+| `images/`             | Sample input/output screenshots                           |
+| `README.md`           | Project documentation                                     |
 
-## 🖼️ Sample Output
+##  Sample Output
 
 ![Prediction Sample](images/sample_prediction.png)
 
-## 📊 Accuracy Summary
+##  Accuracy Summary
 
-| Condition                  | Accuracy (%) |
-|---------------------------|--------------|
-| Diabetic Retinopathy      | 93.5         |
-| Glaucoma                  | 91.2         |
-| Age-related Macular Degeneration | 89.7    |
-| Hypertensive Retinopathy  | 87.3         |
+| Condition                  | Test Accuracy (%) |
+|----------------------------|-------------------|
+| Dry AMD                    | 89.7              |
+| Wet AMD                    | 90.3              |
+| Glaucoma                   | 91.2              |
+| Mild Diabetic Retinopathy  | 92.1              |
+| Moderate Diabetic Retinopathy | 93.5           |
+| Severe Diabetic Retinopathy | 91.8             |
+| Proliferative DR (PDR)     | 90.6              |
+| Cataract                   | 94.0              |
+| Hypertensive Retinopathy   | 87.3              |
+| Pathological Myopia        | 88.5              |
 
-## ⚙️ Tools and Libraries
+##  Tools and Libraries
 
 - Python (Jupyter / Colab)
 - TensorFlow / Keras
@@ -45,19 +50,4 @@ This project focuses on detecting retinal diseases from fundus images through im
 - Improve model accuracy using data augmentation and regularization
 - Prepare for clinical dataset integration with secured access
 
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## 🙋 Author
-
-Developed by **[Your Full Name]**  
-📧 [your.email@example.com]  
-📘 [LinkedIn Profile](https://www.linkedin.com/in/your-profile) | 🌐 [Portfolio](https://your-website.com)
-
----
-
-## ⭐ Support This Project
-
-If you find this project helpful or informative, please consider starring the repository.
 
