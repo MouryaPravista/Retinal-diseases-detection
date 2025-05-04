@@ -40,7 +40,7 @@ This project focuses on detecting retinal diseases from fundus images through im
 - OpenCV, NumPy, Pandas
 - Matplotlib, Seaborn
 
-## 🔧 Suggested Enhancements
+##  Suggested Enhancements
 
 - Enable real-time image input from devices
 - Improve model accuracy using data augmentation and regularization
