@@ -18,10 +18,6 @@ This project focuses on detecting retinal diseases from fundus images through im
 | `images/`             | Sample input/output screenshots                           |
 | `README.md`           | Project documentation                                     |
 
-##  Sample Output
-
-![Prediction Sample](images/sample_prediction.png)
-
 ##  Accuracy Summary
 
 | Condition                  | Test Accuracy (%) |
